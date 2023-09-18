@@ -6,6 +6,9 @@ class Ucet:
     def pridej(self, kolik):
         self.zustatek += kolik
 
+    def uber(self, kolik):
+        self.zustatek -= kolik
+
 
 if __name__ == "__main__":
     ucet = Ucet(101)
