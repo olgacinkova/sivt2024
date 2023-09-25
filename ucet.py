@@ -3,11 +3,13 @@ class Ucet:
     def __init__(self, zustatek: int =0):
         self.zustatek = zustatek
 
-    def pridej(self, kolik):
+    def pridej(self, kolik: int) -> None:
         self.zustatek += kolik
+        return None
 
-    def uber(self, kolik):
+    def uber(self, kolik:int) -> None:
         self.zustatek -= kolik
+        return None
 
 
 if __name__ == "__main__":
