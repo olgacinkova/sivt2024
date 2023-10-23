@@ -1,5 +1,5 @@
 def k_prumer(vstup: list[float]) -> float:
-    vystup = 0.0
+    vystup: float = 0
     n = len(vstup)
     for x in vstup:
         vystup += x **2

@@ -7,5 +7,5 @@ def prumer(seznam: list[float]) -> float:
     for cislo in seznam:
         acc += cislo
         return acc
-
+# hihihihihi
 print(prumer([1, 3, 4]))
