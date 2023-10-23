@@ -1,5 +1,5 @@
 import sys
-soucet = 0
+soucet = 0.0
 delka = 0
 args = sys.argv[1:] # skip arg 0
 for arg in args:
