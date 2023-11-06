@@ -16,4 +16,5 @@ if __name__ == "__main__":
     ucet = Ucet(101)
     ucet.pridej(100)
     ucet.uber(200)
+    print("jupiii")
     print(ucet.zustatek)
